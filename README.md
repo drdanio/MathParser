@@ -17,14 +17,14 @@ how to use:
     from MathParser import MathParser
     
     m=MathParser()
-    formula="min((-250+i+1+i),315,214,121)"
-    params={"i":"49"}
+    formula="min((-250+i+1+i),315,214,121,lst)/6"
+    params={"i":"49","lst":[215,64,3,21,48,9,-414]}
     result=m.calc(formula,params)
 ```
 - javascrtip: (need MathParser.js imported to project)
 ```javascript
     var m=new MathParser();
-    var formula="min((-250+i+1+i),315,214,121)"
-    var params={"i":"49"}
+    var formula="min((-250+i+1+i),315,214,121,lst)/6"
+    var params={"i":"49","lst":[215,64,3,21,48,9,-414]}
     var result=m.calc(formula,params)
 ```
