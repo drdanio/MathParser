@@ -2,6 +2,9 @@
 Parser for string writed formulas (can be extended)
 Writed on python and javascript with same functional
 
+based on code ideas in https://habr.com/ru/post/273253/
+but can work with word operators (not only symbol operators as original) and can property work with sub zero values and parameters
+
 how to use:
 - python: (need MathParser.py file in project)
 ```python
