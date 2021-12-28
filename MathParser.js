@@ -144,7 +144,7 @@ class MathParser {
 	}
 
 
-	calc(formula,params,silent=false) {
+	calc(formula,params={},silent=false) {
 		/*
 		main calc function:
 			formula	- string with formula (e.g. "min((x*(abs(y)/100)),24)+3" )
